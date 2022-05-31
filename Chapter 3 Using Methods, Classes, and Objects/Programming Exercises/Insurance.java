@@ -12,7 +12,7 @@ public class Insurance {
    }
    public static int calcPremium(int yob, int year) {
       int age = year - yob;
-      int premium = (age / 10) + 15 * 20;
+      int premium = ((age / 10) + 15) * 20;
       return premium;
    }
 }
